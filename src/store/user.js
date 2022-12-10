@@ -5,7 +5,8 @@ export const fetchUserData = createAsyncThunk(
     "user/fetchUserData",
     async () => {
       try {
-        const {data} = await axios.get("");
+        const {data} = await axios.get("/auth/me");
+        console.log(data)
         return data
       } catch (e) {
         console.error(e);
@@ -25,8 +26,6 @@ const userSlice = createSlice({
   reducers: {
     logout: (state) => {
     },
-    login: (state) => {
-    },
   },
   extraReducers: (builder) => {
     builder
@@ -35,7 +34,7 @@ const userSlice = createSlice({
         state.data = initialState.data;
       })
       .addCase(fetchUserData.fulfilled, (state, action) => {
-        state.status = "loading";
+        state.status = "loaded";
         state.data = action.payload;
       })
       .addCase(fetchUserData.rejected, (state) => {
@@ -44,5 +43,8 @@ const userSlice = createSlice({
       })
   },
 });
+
+
+export const selectIsAuth = (state) => Boolean(state.user.data);
 
 export const userReducer = userSlice.reducer;

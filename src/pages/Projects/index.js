@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
 
-const ProjectsRouter = () => {
+const StudentsRouter = () => {
     return (
-        <Routes>
+        <Router>
             {/*<Route path="/employees" element={<Listing/>}/>*/}
             {/*<Route path="/employees/:id" element={<Card/>}/>*/}
-        </Routes>
+        </Router>
     );
 };
 
-export default ProjectsRouter;
+export default StudentsRouter;

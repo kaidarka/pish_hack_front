@@ -3,10 +3,10 @@ import { Route, Routes } from "react-router-dom";
 
 const StudentsRouter = () => {
     return (
-        <Router>
+        <Routes>
             {/*<Route path="/employees" element={<Listing/>}/>*/}
             {/*<Route path="/employees/:id" element={<Card/>}/>*/}
-        </Router>
+        </Routes>
     );
 };
 

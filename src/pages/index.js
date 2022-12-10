@@ -1,7 +1,8 @@
 import React from 'react';
 import {Route, Routes} from "react-router-dom";
-import Projects from "./Projects/Projects";
 import StudentsRouter from "./Students";
+import AuthRouter from "./Auth";
+import Projects from "./Projects";
 
 const AppRouter = () => {
   return (
@@ -12,6 +13,7 @@ const AppRouter = () => {
       <Route path="/students" element={<StudentsRouter/>}/>
       <Route path="/companies"/>
       <Route path="/admin"/>
+      <Route path="/auth/*" element={<AuthRouter/>}/>
     </Routes>
   );
 };
