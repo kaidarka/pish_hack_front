@@ -1,9 +1,9 @@
 import React from 'react';
-import StudentsListing from "../../components/Listing";
+import CompaniesListing from "../../components/Listing";
 
 const ListingContainer = () => {
     return (
-        <StudentsListing />
+        <CompaniesListing />
     );
 };
 
