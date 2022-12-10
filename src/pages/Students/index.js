@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
 
-const EmployeesRouter = () => {
+const StudentsRouter = () => {
     return (
         <Routes>
             {/*<Route path="/employees" element={<Listing/>}/>*/}
@@ -10,4 +10,4 @@ const EmployeesRouter = () => {
     );
 };
 
-export default EmployeesRouter;
+export default StudentsRouter;

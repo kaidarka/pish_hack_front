@@ -1,9 +1,9 @@
 import React from 'react';
-import EmployeesListing from "../../containers/Listing";
+import StudentsListing from "../../containers/Listing";
 
 const ListingContainer = () => {
     return (
-        <EmployeesListing />
+        <StudentsListing />
     );
 };
 

@@ -1,16 +1,19 @@
 import React from 'react';
-import { Route, Routes } from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import Projects from "./Projects/Projects";
-import EmployeesRouter from "./Employees";
+import StudentsRouter from "./Students";
 
 const AppRouter = () => {
-    return (
-        <Routes>
-            <Route path="/"/>
-            <Route path="/projects" element={<Projects/>} />
-            <Route path="/employees" element={<EmployeesRouter/>} />
-        </Routes>
-    );
+  return (
+    <Routes>
+      <Route path="/"/>
+      <Route path="/profile"/>
+      <Route path="/projects" element={<Projects/>}/>
+      <Route path="/students" element={<StudentsRouter/>}/>
+      <Route path="/companies" element={}/>
+      <Route path="/admin" element={}/>
+    </Routes>
+  );
 };
 
 export default AppRouter;
