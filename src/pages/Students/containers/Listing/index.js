@@ -1,11 +1,10 @@
 import React from 'react';
+import StudentsListing from "../../components/Listing";
 
-const StudentsListing = () => {
+const ListingContainer = () => {
     return (
-        <div>
-
-        </div>
+        <StudentsListing />
     );
 };
 
-export default StudentsListing;
+export default ListingContainer;

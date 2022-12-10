@@ -1,10 +1,11 @@
 import React from 'react';
-import ProjectsListing from "../../containers/Listing";
 
-const ListingContainer = () => {
+const ProjectsListing = () => {
     return (
-        <ProjectsListing />
+        <div>
+
+        </div>
     );
 };
 
-export default ListingContainer;
+export default ProjectsListing;
