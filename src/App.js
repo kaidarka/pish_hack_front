@@ -4,7 +4,7 @@ import {useEffect} from "react";
 import {fetchUserData} from "./store/user";
 import {useDispatch} from "react-redux";
 
-import Header from "./Header(think about folder to it)/Header";
+import Header from "./components/Header/Header";
 
 function App() {
   const dispatch = useDispatch();
