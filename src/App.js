@@ -1,9 +1,10 @@
 import './App.css';
+import AppRouter from "./pages"
 
 function App() {
   return (
     <div className="App">
-      asd
+        <AppRouter/>
     </div>
   );
 }
