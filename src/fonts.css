@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Gorizont';
+    font-weight: normal;
+    font-style: normal;
+    src: url("fonts/Gorizont.ttf");
+}
+
+* {
+    font-family: Gorizont, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}

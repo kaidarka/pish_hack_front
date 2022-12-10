@@ -1,0 +1,28 @@
+.wrapper {
+  padding: 50px 150px;
+}
+.search {
+  height: 100px;
+  width: 100%;
+  background: #424242;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.search__field {
+  margin: auto 0;
+}
+.search__filters {
+  margin: auto 0;
+}
+.search__confirm {
+  margin: auto 0;
+}
+.list {
+  margin-top: 50px;
+  height: 1000px;
+  background: #424242;
+  border-radius: 50px;
+}
+/*# sourceMappingURL=styles.css.map */

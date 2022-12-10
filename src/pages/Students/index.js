@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
+import Listing from "./containers/Listing";
 
 const StudentsRouter = () => {
     return (
         <Routes>
-            {/*<Route path="/employees" element={<Listing/>}/>*/}
-            {/*<Route path="/employees/:id" element={<Card/>}/>*/}
+            <Route path="/" element={<Listing/>}/>
         </Routes>
     );
 };
