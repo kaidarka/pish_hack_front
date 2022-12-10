@@ -1,4 +1,4 @@
-import './App.less';
+import './App.css';
 import AppRouter from "./pages"
 import {useEffect} from "react";
 import {fetchUserData} from "./store/user";

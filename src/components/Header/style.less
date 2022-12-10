@@ -2,9 +2,34 @@
   width: 100%;
   background: black;
   height: 116px;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  justify-content: space-between;
 
   &__logo {
-    width: 32px;
-    height: 32px;
+    //width: 32px;
+    //height: 32px;
+  }
+  &__buttons {
+    display: flex;
+    & div {
+      margin-left: 50px;
+    }
+  }
+}
+
+.navbar {
+  display: flex;
+  margin: 0 50px 0;
+
+  &__item {
+    display: flex;
+    margin-right: 50px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: white;
   }
 }
